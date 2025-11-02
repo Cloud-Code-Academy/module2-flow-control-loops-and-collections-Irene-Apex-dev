@@ -95,7 +95,7 @@ public with sharing class FlowControlLoopsCollections {
      * @return A string indicating whether the number is "Positive", "Negative", or "Zero", or null if the number is null.
      */
     public static String checkNumber(Integer a) {
-         
+
         if (a == null) {
             return null;
         }
@@ -108,7 +108,7 @@ public with sharing class FlowControlLoopsCollections {
         else {
             return 'Zero';
         }
-        
+
     }
 
     /**
@@ -120,7 +120,7 @@ public with sharing class FlowControlLoopsCollections {
      * @return A string indicating whether the number is "Even" or "Odd", or null if the number is null.
      */
     public static String checkEvenOdd(Integer a) {
-        
+
         if (a == null) {
             return null;
         }
@@ -141,7 +141,7 @@ public with sharing class FlowControlLoopsCollections {
      * @return A string indicating whether the input is "Empty", "Null", or "Contains Text".
      */
     public static String checkString(String a) {
-        
+
         if (a == null) {
             return 'Null';
         }
@@ -167,7 +167,7 @@ public with sharing class FlowControlLoopsCollections {
      * @return The grade for the given score.
      */
     public static String determineGrade(Integer score) {
-        
+
         if (score == null) {
             return null;
         }
@@ -188,7 +188,6 @@ public with sharing class FlowControlLoopsCollections {
         }
 
     }
-
 
     /**
      * Question 8
@@ -251,7 +250,7 @@ public with sharing class FlowControlLoopsCollections {
         String result = '';
 
         // Use a for loop to append the inputString to the result string repeatCount times
-        
+
         for (Integer i = 0; i < repeatCount; i++) {
             if (i == (repeatCount - 1)) {
                 result = result + InputString;
@@ -296,7 +295,7 @@ public with sharing class FlowControlLoopsCollections {
 
         // Remove the 3rd element (number 3) from the list
         numberList.remove(2);
-        
+
         // Return the updated list
         return numberList;
     }
@@ -359,7 +358,7 @@ public with sharing class FlowControlLoopsCollections {
 
         // Loop through the list of integers
             // if the number is negative skip this iteration
-        
+
         for (Integer i : numbers) {
             if (i > 0) {
                 result = result + i;
@@ -414,7 +413,7 @@ public with sharing class FlowControlLoopsCollections {
         Decimal sum = 0;
 
         for (Decimal amount : moneyInWallet) {
-            
+ 
             sum = sum + amount;
 
             if (sum > 40) {
