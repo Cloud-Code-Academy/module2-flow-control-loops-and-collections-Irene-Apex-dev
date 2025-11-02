@@ -320,7 +320,7 @@ public with sharing class FlowControlLoopsCollections {
             numbers.add(i);
         }
 
-        return numbers; 
+        return numbers;
     }
 
     /**
@@ -366,7 +366,7 @@ public with sharing class FlowControlLoopsCollections {
 
         }
 
-        return result; 
+        return result;
     }
 
     /**
@@ -506,7 +506,7 @@ public with sharing class FlowControlLoopsCollections {
         }
 
         // Return the list of high paid employees
-        return highPaidEmployees; 
+        return highPaidEmployees;
     }
 
 }
