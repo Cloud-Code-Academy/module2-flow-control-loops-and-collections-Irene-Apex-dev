@@ -253,7 +253,7 @@ public with sharing class FlowControlLoopsCollections {
 
         for (Integer i = 0; i < repeatCount; i++) {
             if (i == (repeatCount - 1)) {
-                result = result + InputString;
+                result = result + inputString;
             }
             else {
                 result = result + inputString + ';' + ' ';
